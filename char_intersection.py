@@ -1,5 +1,5 @@
-firstinput=input("first word: ")
-secondinput=input("second word: ")
+firstinput=input("")
+secondinput=input("")
 
 mix=set(firstinput) and set(secondinput)
 resultmix=""
