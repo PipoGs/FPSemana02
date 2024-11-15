@@ -1,3 +1,4 @@
+
 input1=input(str())
 input2=input(str())
 
