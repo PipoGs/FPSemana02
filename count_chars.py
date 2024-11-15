@@ -1,4 +1,4 @@
-userinput=str(input(""))
+userinput=str(input())
 
 words=userinput.split(" ")
 
