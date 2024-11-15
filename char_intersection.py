@@ -1,12 +1,7 @@
-firstinput=input("first word: ")
-secondinput=input("second word: ")
+input1=input(str())
+input2=input(str())
 
-mix=set(firstinput) and set(secondinput)
-resultmix=""
+c = set(input1).intersection(set(input2))
 
-
-for wrd in firstinput:
-    if wrd in mix and wrd not in resultmix:
-        resultmix+=wrd
-
-print(resultmix)
+s = "".join(c)
+print(s)
